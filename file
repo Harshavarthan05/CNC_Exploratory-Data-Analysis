@@ -1,0 +1,8 @@
+plt.scatter(x,y, color = 'blue', label = 'Actual')
+plt.plot(x, predictions, color = 'red', label = 'Predicted')
+plt.xlabel('Square Feet')
+plt.ylabel('Price')
+plt.title('Linear Regression Line')
+plt.legend()
+plt.grid(True)
+plt.show()
